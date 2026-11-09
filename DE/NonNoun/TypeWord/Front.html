@@ -1,0 +1,39 @@
+<!-- TYPE WORD FRONT -->
+
+<!-- 0. Header -->
+<!-- 0.1 Audio Instruction -->
+<span style="font-size:xx-small">
+	[anki:tts lang=de_DE voices=com.google.android.tts-de-de-x-deg-local]
+		Wort eingeben	
+	[/anki:tts]
+</span>
+<!-- 0.2 Text Instruction -->
+<span style="font-size:medium; color:#fab005">
+	Wort eingeben
+</span>
+ <br>
+ 
+<!-- 1. Word -->
+<!-- 1.1 Type Word -->
+<span style="font-size:small">
+	{{type:Wort}}
+</span>
+ <br>
+ 
+<!-- 2. Multimedia -->
+{{#Multimedia}}
+	{{Multimedia}}
+	 <br>
+{{/Multimedia}}
+
+<!-- 3 Translation -->
+<!-- 3.1 Audio Translation -->
+<span style="font-size:xx-small">
+	{{tts en_US voices=com.google.android.tts-en-us-x-tpd-local speed=1:WortÜbersetzung}}
+</span>
+<!-- 3.2 Text Translation -->
+<i>
+	{{WortÜbersetzung}}
+</i>
+ <br>
+ 
