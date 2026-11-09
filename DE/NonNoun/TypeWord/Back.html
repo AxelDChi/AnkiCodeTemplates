@@ -1,0 +1,41 @@
+<!-- TYPE WORD BACK -->
+
+<!-- 1. Word -->
+<!-- 1.1 Audio Word -->
+<span style="font-size:xx-small">
+	{{tts de_DE voices=com.google.android.tts-de-de-x-deb-local speed=0.5:Wort}}
+</span>
+ <br>
+<!-- 1.2 Word Text -->
+<span style="font-size:xx-large">
+	{{type:Wort}}
+</span>
+ <br>
+ <hr>
+ 
+<!-- 2. Multimedia -->
+{{#Multimedia}}
+	{{Multimedia}}
+	 <br>
+{{/Multimedia}}
+
+<!-- 3. Translation -->
+<!-- 3.1 Audio Translation -->
+<span style="font-size:xx-small">
+	{{tts en_US voices=com.google.android.tts-en-us-x-tpd-local speed=1:WortÜbersetzung}}
+</span>
+<!-- 3.2 Text Translation -->
+<i>
+	{{WortÜbersetzung}}
+</i>
+ <br>
+
+<!-- 4. Notes -->
+{{#Notizen}}
+	<span style="font-size:small">
+		{{Notizen}}
+	</span>
+	 <br>
+{{/Notizen}}
+
+<id=answer>
