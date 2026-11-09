@@ -1,3 +1,3 @@
 # AnkiCodeTemplates
-> [!TLDR] TLDR
+TLDR
 > This is a repository of the HTML code for Anki card templates for the german language studied as an english speaker, these cards encourage the learner to take new vocabulary from context, in the form of sentences and cloze deletions, none the less, it also allows for the production of cards out of context. It uses Google's TTS engine as audio input, and encourages the learner to add a sort of multimedia i.e. gifs or images, for visual aid in an attempt to make the recollection of the word more efficient. Finally it uses in all cards are the "type the answer" card type, because this encourages an active input in behalf of the learner, for the cloze card, it uses a secondary field to add the cloze deletion as blank spaces, instead of using the "cloze deletion" card type
