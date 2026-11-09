@@ -1,0 +1,55 @@
+<!-- CLOZE CARD BACK -->
+
+<!-- 0. Sentence -->
+<!-- 0.1 Audio Sentence -->
+<span style="font-size:xx-small">
+	{{tts de_DE voices=com.google.android.tts-de-de-x-deb-local speed=0.9:Satz}}<!-- Voice B -->
+</span>
+ <br>
+<!-- 0.2 Text Sentence -->
+<span style="font-size:xx-large">
+	{{Satz}}
+</span>
+ <br>
+<!-- 0.3 Translation Sentence -->
+<i><span style="font-size:medium">
+	{{SatzÜbersetzung}}
+</span></i>
+ <br>
+ <hr>
+ 
+<!-- 1. Word -->
+<!-- 1.1 Audio Word -->
+<span style="font-size:xx-small">
+	{{tts de_DE voices=com.google.android.tts-de-de-x-deb-local speed=0.5:Wort}}<!-- Voice B -->
+</span>
+ <br>
+<!-- 1.2 Word Text -->
+<span style="font-size:xx-large">
+	{{type:Wort}}
+</span>
+ <br>
+ <br>
+ 
+<!-- 2. Multimedia -->
+{{#Multimedia}}
+	{{Multimedia}}
+	 <br>
+{{/Multimedia}}
+
+<!-- 3. Translation -->
+<!-- 3.1 Text Translation -->
+<i>
+	{{WortÜbersetzung}}
+</i>
+ <br>
+
+<!-- 4. Notes -->
+{{#Notizen}}
+	<span style="font-size:small">
+		{{Notizen}}
+	</span>
+	 <br>
+{{/Notizen}}
+
+<id=answer>
